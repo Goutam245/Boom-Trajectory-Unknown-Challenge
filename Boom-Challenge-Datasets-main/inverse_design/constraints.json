@@ -1,0 +1,41 @@
+{
+  "constraints": {
+    "p80_min": 96.0,
+    "p80_max": 101.0,
+    "r95_max": 175.0
+  },
+  "input_bounds": {
+    "energy": {
+      "min": 0.5,
+      "max": 5.0
+    },
+    "angle_rad": {
+      "min": 0.2617993877991494,
+      "max": 1.5707963267948966
+    },
+    "coupling": {
+      "min": 0.2,
+      "max": 1.7
+    },
+    "strength": {
+      "min": 0.4,
+      "max": 4.2
+    },
+    "porosity": {
+      "min": 0.0,
+      "max": 0.33
+    },
+    "gravity": {
+      "min": 1.02,
+      "max": 10.47
+    },
+    "atmosphere": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "shape_factor": {
+      "min": 0.7,
+      "max": 1.5
+    }
+  }
+}

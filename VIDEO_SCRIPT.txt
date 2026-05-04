@@ -1,0 +1,43 @@
+VIDEO SCRIPT — Boom Challenge
+Goutam Roy | @Goutam895 | ~2:30 min
+========================================
+
+[INTRO — 0:00–0:15]
+"Hi. My name is Goutam Roy.
+This is my individual submission
+for the Boom Challenge."
+
+[PROBLEM — 0:15–0:40]
+"The challenge asks us to predict
+what happens after an asteroid hits a surface.
+We have 8 input parameters like energy and gravity,
+and need to predict 6 outputs
+like fragment size and travel distance."
+
+[APPROACH — 0:40–1:10]
+"I engineered 11 physics-informed features.
+For example — energy divided by gravity
+predicts how far fragments travel.
+These features help the model understand
+the physics, not just memorize the data."
+
+[MODEL — 1:10–1:35]
+"I used a Weighted Ensemble —
+XGBoost at 55% and Random Forest at 45%.
+This achieves 93% accuracy
+on data the model has never seen before."
+
+[RESULTS — 1:35–2:05]
+"For Forward Prediction —
+492 test scenarios predicted, no negative values.
+For Inverse Design —
+20 scenarios found, all constraints satisfied.
+P80 between 96 and 101, R95 below 175."
+
+[CLOSE — 2:05–2:30]
+"All files are in my GitHub repository.
+The model runs in 30 seconds, no GPU needed.
+Thank you for this challenge."
+
+[END]
+========================================

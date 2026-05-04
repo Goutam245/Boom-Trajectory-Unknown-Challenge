@@ -1,0 +1,3 @@
+submission_id,energy,angle_rad,coupling,strength,porosity,gravity,atmosphere,shape_factor
+1,2.8,0.7330382858376184,1.1,1.4,0.12,3.71,0.35,0.95
+2,2.4,0.6632251157578453,1.0,1.1,0.10,3.71,0.30,0.92
